@@ -1,10 +1,10 @@
-def timeConvert(time)
-	a=time
-	
-	puts a[2]
+def timeConvert()
+	ericTime=Array.new
+	time = gets.chomp
+	ericTime.push(time.slice(/.../))
+	puts ericTime[0]
+ 
 end
-
-
-timeConvert(12345)
+timeConvert()
 	
 	
